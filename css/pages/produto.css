@@ -1,0 +1,44 @@
+@import url('../style.css');
+
+
+#header.pages-produto {
+    background-image: url("../../images/background-produto.jpg") ;
+}
+
+
+.section{
+    padding: 30px 0 30px 0;
+    background-color: #f3f0e7;
+}
+
+.section-center{
+    text-align: center;
+}
+
+#download {
+    background-color: #f9f6f1;
+}
+
+#download .btn, .btn {
+    font-size: 18px;
+
+}
+
+#funcionalidades .material-icons {
+    float: left;
+    height: 200px;
+    font-size:60px;
+    margin-right: 20px;
+}
+
+#funcionalidades h3 {
+    margin-top: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#imgDown, .btn {
+    margin-top: 20px;
+}

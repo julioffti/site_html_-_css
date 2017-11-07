@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'minifier' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'minifier', null ]
+5 verbose cache add name=undefined spec="minifier" args=["minifier",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'minifier',
+6 verbose parsed url   path: 'minifier',
+6 verbose parsed url   href: 'minifier' }
+7 silly lockFile 59c8589d-minifier minifier
+8 verbose lock minifier /home/juliofilgueiras@conder.intranet/.npm/59c8589d-minifier.lock
+9 silly lockFile 59c8589d-minifier minifier
+10 silly lockFile 59c8589d-minifier minifier
+11 verbose addNamed [ 'minifier', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 690faf1f-minifier minifier@
+14 verbose lock minifier@ /home/juliofilgueiras@conder.intranet/.npm/690faf1f-minifier.lock
+15 silly addNameRange { name: 'minifier', range: '*', hasData: false }
+16 verbose request where is /minifier
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ae297a868c22c75d
+19 verbose url raw /minifier
+20 verbose url resolving [ 'https://registry.npmjs.org/', './minifier' ]
+21 verbose url resolved https://registry.npmjs.org/minifier
+22 verbose request where is https://registry.npmjs.org/minifier
+23 info trying registry request attempt 1 at 17:03:29
+24 http GET https://registry.npmjs.org/minifier
+25 http 200 https://registry.npmjs.org/minifier
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'nginx/1.10.1',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'last-modified': 'Tue, 01 Aug 2017 05:06:23 GMT',
+26 silly registry.get     etag: 'W/"59800c4f-5f9d"',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '4956',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Mon, 06 Nov 2017 19:03:29 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-gig17034-GIG',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1509995010.759198,VS0,VE179',
+26 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+27 silly addNameRange number 2 { name: 'minifier', range: '*', hasData: true }
+28 silly addNameRange versions [ 'minifier',
+28 silly addNameRange   [ '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.4.6',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1' ] ]
+29 verbose addNamed [ 'minifier', '0.8.1' ]
+30 verbose addNamed [ '0.8.1', '0.8.1' ]
+31 silly lockFile 48d4ccde-minifier-0-8-1 minifier@0.8.1
+32 verbose lock minifier@0.8.1 /home/juliofilgueiras@conder.intranet/.npm/48d4ccde-minifier-0-8-1.lock
+33 silly lockFile 7bb59f17--org-minifier-minifier-0-8-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+34 verbose lock https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz /home/juliofilgueiras@conder.intranet/.npm/7bb59f17--org-minifier-minifier-0-8-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz',
+35 verbose addRemoteTarball   '67e9333f9e25d27643bc7963e66b2dd61cf6c5b0' ]
+36 info retry fetch attempt 1 at 17:03:29
+37 verbose fetch to= /tmp/npm-9268-3HgQSfKF/registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+38 http GET https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+39 http 200 https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+40 silly lockFile 7bb59f17--org-minifier-minifier-0-8-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+41 silly lockFile 7bb59f17--org-minifier-minifier-0-8-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz
+42 silly lockFile 48d4ccde-minifier-0-8-1 minifier@0.8.1
+43 silly lockFile 48d4ccde-minifier-0-8-1 minifier@0.8.1
+44 silly lockFile 690faf1f-minifier minifier@
+45 silly lockFile 690faf1f-minifier minifier@
+46 silly resolved [ { author:
+46 silly resolved      { name: 'Benjamin Horsleben',
+46 silly resolved        email: 'benjamin@fizkerinc.dk',
+46 silly resolved        url: 'http://fizkerinc.dk' },
+46 silly resolved     name: 'minifier',
+46 silly resolved     description: 'A simple tool for minifying CSS/JS without a big setup',
+46 silly resolved     keywords: [ 'javascript js css minify minifier build' ],
+46 silly resolved     version: '0.8.1',
+46 silly resolved     license: 'WTFPL',
+46 silly resolved     main: 'index.js',
+46 silly resolved     repository: { type: 'git', url: 'git://github.com/fizker/minifier.git' },
+46 silly resolved     bugs: { url: 'https://github.com/fizker/minifier/issues' },
+46 silly resolved     dependencies:
+46 silly resolved      { commander: '^2.8.1',
+46 silly resolved        'css-resolve-import': '^0.1.1',
+46 silly resolved        fmerge: '^1.2.0',
+46 silly resolved        glob: '^7.1.1',
+46 silly resolved        'hogan.js': '^3.0.2',
+46 silly resolved        sqwish: '~0.2.2',
+46 silly resolved        'uglify-js': '^2.4.24' },
+46 silly resolved     bin: { minify: 'index.js' },
+46 silly resolved     scripts: { test: 'mocha' },
+46 silly resolved     devDependencies:
+46 silly resolved      { chai: '^3.2.0',
+46 silly resolved        'finc-chai-helpers': '~0.1.0',
+46 silly resolved        fzkes: '^0.14.1',
+46 silly resolved        mocha: '^3.2.0' },
+46 silly resolved     optionalDependencies: {},
+46 silly resolved     engines: { node: '^4.4.7 || >=6.3.0' },
+46 silly resolved     gitHead: 'af4c8a8509433f10c9287c73afae2d3e43deb199',
+46 silly resolved     homepage: 'https://github.com/fizker/minifier#readme',
+46 silly resolved     _id: 'minifier@0.8.1',
+46 silly resolved     _shasum: '67e9333f9e25d27643bc7963e66b2dd61cf6c5b0',
+46 silly resolved     _from: 'minifier@',
+46 silly resolved     _npmVersion: '4.0.5',
+46 silly resolved     _nodeVersion: '7.4.0',
+46 silly resolved     _npmUser: { name: 'fizker', email: 'npm@fizkerinc.dk' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '67e9333f9e25d27643bc7963e66b2dd61cf6c5b0',
+46 silly resolved        tarball: 'https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 'packages-18-east.internal.npmjs.com',
+46 silly resolved        tmp: 'tmp/minifier-0.8.1.tgz_1485727334690_0.44378700596280396' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/minifier/-/minifier-0.8.1.tgz' } ]
+47 info install minifier@0.8.1 into /usr/local/lib
+48 info installOne minifier@0.8.1
+49 warn engine minifier@0.8.1: wanted: {"node":"^4.4.7 || >=6.3.0"} (current: {"node":"0.10.30","npm":"1.4.21"})
+50 verbose lib/node_modules/minifier unbuild
+51 verbose tar unpack /home/juliofilgueiras@conder.intranet/.npm/minifier/0.8.1/package.tgz
+52 silly lockFile b7f18462--local-lib-node-modules-minifier tar:///usr/local/lib/node_modules/minifier
+53 verbose lock tar:///usr/local/lib/node_modules/minifier /home/juliofilgueiras@conder.intranet/.npm/b7f18462--local-lib-node-modules-minifier.lock
+54 silly lockFile 88286f1c-t-npm-minifier-0-8-1-package-tgz tar:///home/juliofilgueiras@conder.intranet/.npm/minifier/0.8.1/package.tgz
+55 verbose lock tar:///home/juliofilgueiras@conder.intranet/.npm/minifier/0.8.1/package.tgz /home/juliofilgueiras@conder.intranet/.npm/88286f1c-t-npm-minifier-0-8-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/minifier'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/minifier']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/minifier',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/minifier',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.10.0-514.26.2.el7.x86_64
+60 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "minifier"
+61 error cwd /home/juliofilgueiras@conder.intranet/projetos/projeto_site
+62 error node -v v0.10.30
+63 error npm -v 1.4.21
+64 error path /usr/local/lib/node_modules/minifier
+65 error fstream_path /usr/local/lib/node_modules/minifier
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/minifier'
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]

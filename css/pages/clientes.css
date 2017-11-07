@@ -1,0 +1,13 @@
+@import url('../style.css');
+
+#header.pages-clientes {
+    background-image: url("../../images/background-clientes.jpg") ;
+}
+
+.section{
+    padding: 30px 0 30px 0;
+}
+
+.section-center{
+    text-align: center;
+}

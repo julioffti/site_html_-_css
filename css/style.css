@@ -1,0 +1,140 @@
+@import url('reset.css');
+@import url('grid.css');
+@import url('button.css');
+@import url('typograph.css');
+@import url('icons.css');
+@import url('menu.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(130, 130, 130);
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: #000 no-repeat fixed center;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    height:660px;
+    position: relative;
+    padding-top: 30px;
+}
+
+#header a {
+    color: #ffffff;
+    transition: ease .5s;
+}
+
+#header nav {
+    text-align: right;
+}
+
+#header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header nav a:hover, #header a.active{
+  background-color: rgba(84, 209, 84, 0.3);
+}
+
+#header nav ul, #header nav ul li {
+    display: inline-block;
+}
+
+#header h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+#header .title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+#header .btn {
+    background-color: rgb(84, 209, 84);
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+#header .btn:hover {
+    background-color: rgb(84, 180, 84);
+}
+
+#footer{
+    background-color: rgb(51, 51, 51);
+    text-align: left;
+}
+
+#footer, #footer a {
+    color: rgb(204, 204, 204);
+}
+
+#footer h3, #footer nav li{
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+#footer h3:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    width: 55px;
+}
+
+#footer nav li {
+    padding: 3px 0 3px 0;
+}
+
+#footer nav li a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+#footer .social {
+    height: 130px;
+    line-height: 130px;
+    text-align: right;
+    opacity: 1;
+    margin-left: 200px;
+}
+
+#footer .social a{
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+
+#footer .social a:hover {
+    opacity: .5;
+    transition: ease .4s all;
+}
+
+#copyright {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    #header, #header nav{
+        text-align: center;
+    }
+
+}

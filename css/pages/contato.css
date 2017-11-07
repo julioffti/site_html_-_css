@@ -1,0 +1,36 @@
+@import url('../style.css');
+@import url('form.css');
+
+#header.pages-contato {
+    background-image: url("../../images/background-contato.jpg") ;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section{
+    padding: 30px 0 30px 0;
+}
+
+.section-center{
+    text-align: center;
+}
+
+main {
+    background-color: rgb(243, 240, 231);
+}
+
+.btn {
+    border-radius: 0;
+    padding: 20px 60px;
+    font-size: 18px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(255,140,0);
+}
+
+.btn:hover {
+    background-color: black;
+}
