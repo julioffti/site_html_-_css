@@ -1,6 +1,14 @@
 @import url('../style.css');
 
 
+.section{
+    padding: 30px 0 30px 0;
+}
+
+.section-center{
+    text-align: center;
+}
+
 #header.pages-equipe {
     background-image: url("../../images/background-equipe.jpg") ;
 }
